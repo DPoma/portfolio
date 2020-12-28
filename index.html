@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio - DPoma</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="author" content="Dario Poma">
+	<meta name="keywords" content="Dario, Poma, Desarrollador, Web, Mobile">
+	<meta name="description" content="Portfolio Personal">
+	<meta name="copyright" content="DPOMA">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+</head>
+<body class="body">
+	<div class="container">
+		<header class="header">
+			<a class="header__title" href="./"><h1 class="header__title-logo">DPOMA</h1></a>
+			<img class="header__img" src="img/menu.png" alt="Menu"/>
+			<nav class="header__menu">
+				<a class="header__menu-item" href="#main"><h4 class="header__menu-item-title" >Inicio</h4></a>
+				<a class="header__menu-item" href="#about"><h4 class="header__menu-item-title">Sobre mí</h4></a>
+				<a class="header__menu-item" href="#projects"><h4 class="header__menu-item-title">Proyectos</h4></a>
+				<a class="header__menu-item" href="#contact"><h4 class="header__menu-item-title">Contacto</h4></a>
+			</nav>
+		</header>
+
+		<main class="main" id="main">
+			<h2 class="main__title">DARIO POMA</h2>
+			<h3 class="main__description">Desarrollador Web - Mobile</h3>
+			<img class="main__img" src="img/profile.png" alt="Profile">
+		</main>
+
+		<section class="about" id="about">
+			<h2 class="about__title">SOBRE MÍ</h2>
+			<p class="about__description">
+				¡Hola!<br>
+				Mi nombre es Dario Poma.<br> 
+				Futuro Ingeniero en Sistemas de Información.<br>
+				Me interesa todo lo relacionado sobre el desarrollo web y mobile.<br>
+				Por esta razón, decidí estudiar una carrera relacionada con la industria del software.<br>
+				Me considero una persona responsable y proactiva, que busca esforzarse lo máximo posible al momento de realizar una tarea.<br><br>
+			</p>
+		</section>
+
+		<section class="projects" id="projects">
+			<h2 class="projects__title">PROYECTOS</h2>
+			<h3 class="projects__description">Estos son algunos de los proyectos en los cuales participé</h3>
+			<div class="projects__list">
+				<a class="projects__list-link" href="https://play.google.com/store/apps/details?id=com.qar.finder&hl=es_AR&gl=US" target="_blank">
+					<div class="projects__list-link-item">
+						<h3 class="projects__list-link-item-title">QaR Finder</h3>
+						<img class="projects__list-link-item-img" src="img/qarfinder.png" alt="QaRFinder">
+						<p class="projects__list-link-item-description">
+							QaR Finder es una aplicación móvil que te permite contactarte con el dueño de un vehículo de forma simple, rápida y segura. Para esto, lo único que tenés que hacer es escanear el código QR del vehículo.
+						</p>
+					</div>
+				</a>	
+			</div>
+		</section>
+
+		<section class="contact" id="contact" method="POST">
+			<h2 class="contact__title">CONTACTO</h2>
+			<h3 class="contact__description">Podés encontrarme en las siguientes redes sociales</h3>
+			<div class="contact__links">
+				<div class="contact__media">
+					<a class="contact__media-link" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dpomam@gmail.com" target="_blank"><img class="contact__media-link-img" src="img/gmail.png" alt="Gmail"></a>
+					<h3 class="contact__url">Gmail - dpomam@gmail.com</h3>
+				</div>
+				<div class="contact__media">
+					<a class="contact__media-link" href="https://www.linkedin.com/in/dario-poma" target="_blank"><img class="contact__media-link-img" src="img/linkedin.png" alt="Linkedin"></a>
+					<h3 class="contact__url">LinkedIn - Dario Poma</h3>
+				</div>
+				<div class="contact__media">
+					<a class="contact__media-link" href="https://www.github.com/dpoma" target="_blank"><img class="contact__media-link-img" src="img/github.png" alt="Github"></a>
+					<h3 class="contact__url">GitHub - DPoma</h3>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<h6 class="footer__description">Todos los derechos reservados &copy; 2020</h6>
+		</footer>
+
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
